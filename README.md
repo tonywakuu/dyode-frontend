@@ -26,5 +26,6 @@ React Ecommerce Home Page
 
  ## TODO 
 
+ + Responsive Header and Footer Menu
  + Google Fonts (https://fonts.google.com/)
  + Figma styled Icons
