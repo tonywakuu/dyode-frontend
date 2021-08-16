@@ -27,4 +27,4 @@ React Ecommerce Home Page
  ## TODO 
 
  + Google Fonts (https://fonts.google.com/)
- + Figma styled designated Icons
+ + Figma styled Icons
