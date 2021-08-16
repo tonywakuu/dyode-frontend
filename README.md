@@ -3,7 +3,7 @@ React Ecommerce Home Page
 
 ## Start
 
- * App deployed on [Netlify](https://dyode-front.herokuapp.com/home)
+ * App deployed on [Netlify](https://dyode-front.herokuapp.com)
  * To install the app locally , clone this repository and run `npm install` from its directory
  * To run the server locally, run `npm start` and point your browser at `http://localhost:3000/`
  * To run the tests, install the app and run `npm test`
