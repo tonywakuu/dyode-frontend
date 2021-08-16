@@ -8,7 +8,7 @@ function App() {
     <Router history={history}>
     <Switch>
       <Route
-        path="/home"
+        path="/"
         component={LandingPage}
       />
     </Switch>
