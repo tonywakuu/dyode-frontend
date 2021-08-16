@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import p1 from '../../assets/Mens Image.png'
-import p2 from '../../assets/Womens Image.png'
-import p3 from '../../assets/Accessories Image.png'
 import styles from '../Home.css';
 
 class About extends Component {

@@ -16,13 +16,13 @@ class Homes extends Component {
       <div className={styles.carousel}>
         <Carousel showArrows={false} showThumbs={false}>
           <div>
-              <img src={sl1} />
+              <img src={sl1} alt="" />
           </div>
           <div>
-              <img src={sl2} />
+              <img src={sl2} alt=""/>
           </div>
           <div>
-              <img src={sl3} />
+              <img src={sl3} alt=""/>
           </div>
         </Carousel>
       </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import * as cookies from 'js-cookie';
 import SmoothScroll from 'smooth-scroll'
 
 import Homes from './Home/homes'

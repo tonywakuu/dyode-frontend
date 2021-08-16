@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from '../Home.css';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
@@ -30,10 +30,6 @@ const style = makeStyles((theme) => ({
 
 export default function Services() {
   const classes = style();
-  
-  function handleClick() {
-    window.location='/#/marketplace'
-  }
   
   return ( 
     <div className={styles.app}> 

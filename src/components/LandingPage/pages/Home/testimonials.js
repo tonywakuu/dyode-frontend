@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import p1 from '../../assets/Hero Image 2 1.png'
 
 import styles from '../Home.css'
 

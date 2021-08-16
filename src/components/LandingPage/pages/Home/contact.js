@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
 import styles from '../Home.css';
-import { Button } from '@material-ui/core';
 
 class Contact extends Component {
   constructor(props) {

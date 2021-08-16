@@ -1,6 +1,5 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 import * as cookies from 'js-cookie';
 
 class CookieBanner extends Component {
