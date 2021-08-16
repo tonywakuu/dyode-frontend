@@ -23,3 +23,8 @@ React Ecommerce Home Page
  * No DB connectivity. All data managed by React.js.
  * No bootstapping. 
  * Serves as boilerplate for scaled representation.
+
+ ## TODO 
+
+ + Google Fonts (https://fonts.google.com/)
+ + Figma styled designated Icons
