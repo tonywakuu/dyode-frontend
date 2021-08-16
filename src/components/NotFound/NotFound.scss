@@ -1,0 +1,12 @@
+:local(.body) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  .notFound {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+}

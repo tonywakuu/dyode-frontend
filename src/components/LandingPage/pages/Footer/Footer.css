@@ -1,0 +1,21 @@
+:local(.app) .footer {
+  display: flex;
+  position: static;
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  text-align: center; }
+  :local(.app) .footer > p {
+    padding: 10px;
+    /* font-size: 20px; */ }
+  @media only screen and (max-width: 500px) {
+    :local(.app) .footer {
+      margin: 250px auto; } }
+
+a {
+  padding-top: 5%;
+  color: white;
+  text-decoration: none; }
+
+i {
+  color: white; }

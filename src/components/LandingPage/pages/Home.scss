@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap');
+
+/* Header Section */
+.intro {
+	display: flex;
+	width: 100%;
+	background-color: #e5e5e5;
+    background-position: left 20% bottom 20%;
+    background-repeat: no-repeat;
+	-webkit-background-size: 30%;
+	-moz-background-size: 30%;
+	background-size: 30%;
+	-o-background-size: 30%;
+	justify-content: center;
+    @media only screen and (max-width: 600px) {
+		width: fit-content;
+        background-position: center bottom 5%;
+        background-size: 40%;
+        background-repeat: no-repeat;
+    }
+}
+
+.intro h1 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Cantarell', sans-serif;
+	color: black;
+	margin: 0 auto;
+	font-size: 55px;
+	font-weight: 700;
+	text-transform: uppercase;
+	@media only screen and (max-width: 600px) {
+		font-size: 35px;
+		display: flex;
+		justify-content: center;
+		margin: 0 20%;
+	}
+
+}
+.intro p {
+	color: black;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+header .intro-text {
+	display: flex;
+	flex-direction: column;
+    margin: 7% 20%;
+	text-align: center;
+	height: 115vh;
+    @media only screen and (max-width: 600px) {
+        height: 1080px;
+    }
+	.head-button {
+		margin: 0 auto;
+		width: fit-content;
+	}
+}
+/* Features Section */
+#features {
+	margin: 5% auto;
+	background: #f6f6f6;
+	text-align: center;
+	img {
+		margin: auto 1%;
+	}
+	h1{
+		color:black;
+	}
+}
+/* About Section */
+#about {
+	margin: 10rem auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 3% auto;
+	@media only screen and (max-width: 500px) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+#about .image1 {
+	background-image: url('../assets/Womens Image.png');
+	margin: auto 3%;
+	width: 25%;
+	height: 350px;
+	@media only screen and (max-width: 500px) {
+		margin: 3% auto;
+		width: 90%;
+		font-size: 15px;
+	}
+}
+#about .image2 {
+	background-image: url('../assets/Mens Image.png');
+	margin: auto 3%;
+	width: 25%;
+	height: 350px;
+	@media only screen and (max-width: 500px) {
+		margin: 3% auto;
+		width: 90%;
+		font-size: 15px;
+	}
+}
+#about .image3 {
+	background-image: url('../assets/Accessories Image.png');
+	margin: auto 3%;
+	width: 25%;
+	height: 350px;
+	@media only screen and (max-width: 500px) {
+		margin: 3% auto;
+		width: 90%;
+		font-size: 15px;
+	}
+}
+#about h2 {
+	text-align: center;
+	background-color: #10504F;
+	height: 50px;
+	color: white;
+	padding-top: 10px;
+	margin-top: 90%;
+	@media only screen and (max-width: 500px) {
+		margin-top: 300px;
+	}
+}
+
+/* Services Section */
+#services {
+	margin: auto 5%;
+	color: black;
+	@media only screen and (max-width: 500px) {
+		height: 350px;
+	}
+}
+#services h1 {
+	color: black;
+}
+#services h2 {
+	font-weight: 300;
+	margin: 1% 0 0 0;
+	color: black;
+	@media only screen and (max-width: 500px) {
+		font-size: medium;
+	}
+}
+#services h3 {
+	margin: 1% 0 0 0;
+	font-weight: 100;
+	font-size: smaller;
+	padding: 0;
+	color: black;
+}
+#services p {
+	margin: 1% 0 0 0;
+	color: #10504F;
+}
+
+#services img {
+	@media only screen and (max-width: 500px) {
+		width: 100px;
+	}
+}
+
+/* Testimonials Section */
+#testimonials {
+	background-image: url('../assets/Hero Image 2 1.png');
+	height: 600px;
+	padding-top: 50px;
+	.container {
+		margin: auto 70%;
+		@media only screen and (max-width: 500px) {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+			padding-top: 50%;
+			margin: auto;
+		}
+	}
+	h1 {
+		color: white;
+		width: 300px;
+		@media only screen and (max-width: 500px) {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			font-size: 15px;
+			width: 150px;
+			color: black;
+			margin: auto;
+			color: #10504F;
+			padding-top: 10px;
+		}
+	}
+	p {
+		color: white;
+		width: 300px;
+		@media only screen and (max-width: 500px) {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			font-size: 15px;
+			width: 200px;
+			color: black;
+			margin: auto;
+			color: #10504F;
+			padding-top: 10px;
+		}
+	}
+	button {
+		background-color: #10504F;
+		border: none;
+		color: white;
+		width: 100px;
+		height: 30px;
+		@media only screen and (max-width: 500px) {
+			margin: auto;
+			background-color: black;
+			margin-top: 10px;
+		}
+	}
+	@media only screen and (max-width: 500px) {
+		width: 100%;
+		height: fit-content;
+		padding-top: 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+/* Contact Section */
+#contact {
+	padding: 5% 0 5% 0;
+	background-color: #10504F;
+	display: flex;
+	flex-direction: column;
+	@media only screen and (max-width: 500px) {
+	}
+}
+#contact h2 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+#contact h3 {
+	color: #fff;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	font-weight: 400;
+}
+#contact .forms {
+	display: flex;
+	flex-direction: row;
+	margin: 2% auto;
+	@media only screen and (max-width: 500px) {
+		flex-direction: column;
+	}
+}
+
+#contact .form-group {
+	display: flex;
+	margin: 3% 5%;
+	width: 60%;
+	#name {
+		width: 50%;
+	}
+	@media only screen and (max-width: 500px) {
+		width: 50%;
+		#name {
+			width: 150px;
+		}
+	}
+}
+
+#contact .form-letter {
+	display: flex;
+	margin: 3% 5%;
+}
+#contact p {
+	color: #fff;
+}
+#contact .form-button {
+	margin: auto 2%;
+	right: 10%;
+	background: transparent;
+	border: 1px solid #fff;
+	height: 60px;
+	color: #fff;
+	@media only screen and (max-width: 500px) {
+		margin-left: 20px;
+	}
+}
+#contact .form-button:hover {
+	color: #1f386e;
+	background: #fff;
+}
+
+/* Footer Section*/
+#footer {
+	background: #f6f6f6;
+	padding: 30px 0;
+}
+#footer p {
+	color: #888;
+	font-size: 14px;
+}
+
+@media (max-width: 768px) {
+#about img {
+	margin: 50px 0;
+}
+}

@@ -1,0 +1,141 @@
+{
+    "Header": {
+
+        "title": "The World's #1 Blockchain ERP Systems!"
+
+    },
+    "About": {
+        "paragraph": "Muvor takes on large amounts of data, analyzes, and then displays in a User-Friendly way. Utilizing Enterprise Resource Planning, organizations can expect reliable storage, both On-Premises and In the Cloud. Integrating Blockchain into our ERP systems allows you to have direct access, and complete control, over all of your data, at all times, knowing that built in cryptography provides all the security your company will need.",
+        "Why": [
+            "Decentralized storage!",
+            "Built-in Exchange!",
+            "Bundled Systems for a Cheaper Price!"
+        ],
+        "Why2": [
+            "Each $MVRX with Muvor Apps, and FREE Muvor Community!",
+            "State-of-the-art Security Using Quantum-Resistant Cryptography!",
+            "Finally have ownership over your Single Source of Truth!"
+
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-map",
+            "name": "Muvor Whitepaper",
+            "site": "https://wakuuenterprises.com/mvrxwp-draft",
+            "text": "Our Whitepaper discusses Blockchain as a Consortium, Quantum-Resistat Security, and Network Distribution"
+        },
+        {
+            "icon": "fa fa-shopping-cart",
+            "name": "Wakuu x Muvor",
+            "site": "https://muvor.xyz/commerce/main",
+            "text": "Muvor E-Commerce offers site frontage to sell and reach customers"
+        },
+        {
+            "icon": "fa fa-rocket",
+            "name": "Rocket City (Demo)",
+            "site": "https://twakuu.itch.io/rocket-city-demo",
+            "text": "Earn $MVRX playing Rocket City!"
+        },
+        {
+            "icon": "fa fa-home",
+            "name": "Wakuu Home",
+            "site": "https://wakuuenterprises.com",
+            "text": "Wakuu Corporations Home Page"
+        },
+        {
+            "icon": "fa fa-users",
+            "name": "Muvor Community",
+            "site": "https://muvor.xyz/community",
+            "text": "Muvor Community"
+        },
+        {
+            "icon": "fa fa-download",
+            "name": "Muvor Live (Demo)",
+            "site": "https://muvor-demo.netlify.app",
+            "text": "A Live Demo of Muvor"
+        }
+
+
+    ],
+    "Testimonials": [
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "3333 Michelson Dr, Irvine, CA 92612, suite #400",
+        "phone": "+1 949 357 2976",
+        "email": "any@wakuu.enterprises",
+        "facebook": "https://facebook.com/WakuuMarketing",
+        "twitter": "https://www.twitter.com/WakuuEnterprise",
+        "youtube": "https://www.youtube.com/tonywakuu"
+    },
+    "extra": [{
+        "ok": "Some of the services provided by Blockchain technologies include cloud-based compatibility and storage, data analyzation and compilation, scalability for ecommerce, connectivity, and more.",
+        "text": "The use of Blockchain provides the user the ability to manage documents and their storage dynamically.",
+        "txt": "Blockchain technology gives organizations the ability to become part of the ecommerce community more comfortably.",
+        "xt": "The use of cloud-based technology provides better protection and data storage.",
+        "t": "The cloud allows for improved connectivity among users. This gives them access to the necessary information from anywhere in the world.",
+        "tet": "Blockchain stores customers information over several different computers. This improves security providing customers comfort in knowing their sensitive information is not at risk."
+    }],
+    "Features": [
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Customer Relationship Management",
+            "text": "Muvor CRM let's you easily organize, and leverage, oppotunities, leads, and contacts into mass marketing projects."
+        },
+        {
+            "icon": "fa fa-dollar-sign",
+            "title": "Point-of-Sale",
+            "text": "Muvor provides an automated ledger from the Point of Sale. This provides transparancy via consise auditing, reporting, and product tracking."
+        },
+        {
+            "icon": "fa fa-copy",
+            "title": "Document Management",
+            "text": "Muvor DMS is a fully-featured, Quantum-Resistant Cloud storage medium, for secure document storage, editing, and sharing."
+        },
+        {
+            "icon": "fa fa-tasks",
+            "title": "Inventory & Warehouse Management",
+            "text": "Muvor IMS/WMS gives warehouse managers best-in-class organization features, featuring product pipelines, fulfillment, and tracking."
+        },
+        {
+            "icon": "fa fa-train",
+            "title": "Product Lifecycle Mangement",
+            "text": "Muvor PLM tracks and manages the lifecycle of any product, from prototype to the customers mailbox."
+        },
+        {
+            "icon": "fa fa-sitemap",
+            "title": "Human Resources",
+            "text": "Muvor boasts HR features with account, project, and team managements authorities."
+        },
+        {
+            "icon": "fa fa-handshake",
+            "title": "E-Commerce",
+            "text": "Muvor features a full-stack E-Commerce engine with including shipping & fulfillment. Promoting secure trust between consumers and merchants."
+        },
+        {
+            "icon": "fa fa-chain",
+            "title": "Powered by Blockchain",
+            "text": "Blockchain collects and stores large amounts of data. This makes your data more visible, useful, and available to analyze."
+
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+:local(.app) {
+  min-width: 100%;
+  max-height: auto; }
+
+:local(.app) .fs {
+  top: 0; }
+
+:local(.app) html {
+  scroll-behavior: smooth; }
+
+:local(.app) section {
+  margin: 10vh 20vw 10vh 20vw; }
+
+:local(.app) .router {
+  margin: auto; }
+
+:local(.app) a {
+  /* color: black; */
+  font-weight: bold;
+  text-decoration: none; }
+
+:local(.app) #call-to-action {
+  border-radius: 12px;
+  background-color: #ececec;
+  font-size: large;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+  cursor: pointer; }
+
+:local(.app) .details {
+  padding: 40px;
+  font-size: 24px; }
+
+:local(.app) span.highlight {
+  font-weight: bolder;
+  background: linear-gradient(104deg, rgba(255, 231, 16, 0) 0.9%, #ffe710 2.4%, rgba(255, 231, 16, 0.5) 5.8%, rgba(255, 231, 16, 0.1) 93%, rgba(255, 231, 16, 0.7) 96%, rgba(255, 231, 162, 0) 98%), linear-gradient(183deg, rgba(255, 231, 16, 0) 0%, rgba(255, 231, 16, 0.3) 7.9%, rgba(255, 231, 16, 0) 15%);
+  padding: 0.1em 13.7px;
+  -webkit-box-decoration-break: clone;
+  margin: 0;
+  border-radius: 7.5px;
+  text-shadow: -12px 12px 9.8px rgba(255, 231, 16, 0.7), 21px -18.1px 7.3px white, -18.1px -27.3px 30px white; }
+
+:local(.app) s {
+  background-color: rgba(255, 231, 16, 0); }
+
+:local(.app) ::selection {
+  background: #fff2e1; }
+
+:local(.app) ::-moz-selection {
+  background: #e1eeff; }
+
+/* section.features {
+    margin: 0px 5vw 0px 5vw;
+  } */
+:local(.app) .single-feature {
+  border-radius: 12px;
+  padding: 10px; }
+  :local(.app) .single-feature > div {
+    vertical-align: top;
+    width: 50%;
+    text-align: center;
+    display: inline-block; }
+    :local(.app) .single-feature > div > p {
+      font-size: 24px; }
+    :local(.app) .single-feature > div > img {
+      max-height: 100%;
+      width: 100%; }
+
+:local(.app) .features-list {
+  text-align: center; }
+  :local(.app) .features-list > div {
+    width: auto;
+    margin: 0 auto;
+    text-align: left; }
+
+:local(.app) .built-by-details {
+  margin-left: 10px;
+  margin-left: 10px; }
+
+:local(.app) .built-by {
+  text-align: center;
+  margin: 5vw; }
+  :local(.app) .built-by > div {
+    text-align: left; }
+
+@media only screen and (max-width: 600px) {
+  :local(.app) section {
+    margin: 0px 5vw 0px 5vw; }
+    :local(.app) section #form {
+      margin: 0 auto;
+      text-align: center; }
+  :local(.app) .details {
+    padding: 60px 10px 20px 10px; }
+  :local(.app) .single-feature {
+    padding-bottom: 20px;
+    height: 20vh;
+    margin: 100px 0px 100px 0px; }
+    :local(.app) .single-feature > div {
+      width: unset;
+      display: unset; }
+    :local(.app) .single-feature #right {
+      display: none; }
+    :local(.app) .single-feature > p {
+      font-size: 16px; }
+  :local(.app) .form > iframe {
+    width: 80vw; } }
