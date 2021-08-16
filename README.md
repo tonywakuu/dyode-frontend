@@ -3,7 +3,7 @@ React Ecommerce Home Page
 
 ## Start
 
- * App deployed on [Netlify](https://libera-register.herokuapp.com/)
+ * App deployed on [Netlify](https://react-ecommerce-home.netlify.app)
  * To install the app locally , clone this repository and run `npm install` from its directory
  * To run the server locally, run `npm start` and point your browser at `http://localhost:3000/`
  * To run the tests, install the app and run `npm test`
