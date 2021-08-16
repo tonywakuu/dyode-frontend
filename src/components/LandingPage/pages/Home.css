@@ -72,7 +72,7 @@ header .intro-text {
   flex-direction: row;
   justify-content: center;
   margin: 3% auto; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #about {
       display: flex;
       flex-wrap: wrap; } }
@@ -82,7 +82,7 @@ header .intro-text {
   margin: auto 3%;
   width: 25%;
   height: 350px; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #about .image1 {
       margin: 3% auto;
       width: 90%;
@@ -93,7 +93,7 @@ header .intro-text {
   margin: auto 3%;
   width: 25%;
   height: 350px; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #about .image2 {
       margin: 3% auto;
       width: 90%;
@@ -104,7 +104,7 @@ header .intro-text {
   margin: auto 3%;
   width: 25%;
   height: 350px; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #about .image3 {
       margin: 3% auto;
       width: 90%;
@@ -117,7 +117,7 @@ header .intro-text {
   color: white;
   padding-top: 10px;
   margin-top: 90%; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #about h2 {
       margin-top: 300px; } }
 
@@ -125,7 +125,7 @@ header .intro-text {
 #services {
   margin: auto 5%;
   color: black; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #services {
       height: 350px; } }
 
@@ -136,7 +136,7 @@ header .intro-text {
   font-weight: 300;
   margin: 1% 0 0 0;
   color: black; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #services h2 {
       font-size: medium; } }
 
@@ -151,7 +151,7 @@ header .intro-text {
   margin: 1% 0 0 0;
   color: #10504F; }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   #services img {
     width: 100px; } }
 
@@ -162,7 +162,7 @@ header .intro-text {
   padding-top: 50px; }
   #testimonials .container {
     margin: auto 70%; }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
       #testimonials .container {
         display: flex;
         justify-content: center;
@@ -173,7 +173,7 @@ header .intro-text {
   #testimonials h1 {
     color: white;
     width: 300px; }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
       #testimonials h1 {
         display: flex;
         justify-content: center;
@@ -187,7 +187,7 @@ header .intro-text {
   #testimonials p {
     color: white;
     width: 300px; }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
       #testimonials p {
         display: flex;
         justify-content: center;
@@ -204,12 +204,12 @@ header .intro-text {
     color: white;
     width: 100px;
     height: 30px; }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
       #testimonials button {
         margin: auto;
         background-color: black;
         margin-top: 10px; } }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #testimonials {
       width: 100%;
       height: fit-content;
@@ -243,7 +243,7 @@ header .intro-text {
   display: flex;
   flex-direction: row;
   margin: 2% auto; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #contact .forms {
       flex-direction: column; } }
 
@@ -253,7 +253,7 @@ header .intro-text {
   width: 60%; }
   #contact .form-group #name {
     width: 50%; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #contact .form-group {
       width: 50%; }
       #contact .form-group #name {
@@ -273,7 +273,7 @@ header .intro-text {
   border: 1px solid #fff;
   height: 60px;
   color: #fff; }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #contact .form-button {
       margin-left: 20px; } }
 
